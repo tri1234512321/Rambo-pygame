@@ -155,7 +155,7 @@ class boss():
         
         if self.vision.colliderect(player.rect):
             #begin attack
-            self.attack(boss_attack)
+            self.attack(0)
     
     def show(self, surface):
         surface.blit(pygame.transform.flip(self.image, self.flip, False), self.rect)
